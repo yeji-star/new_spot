@@ -33,7 +33,10 @@ class Main3 {
 
         int arr3[] = new int[10];
 
-        for (int i = 0; i < arr3.length; i++) {
+        for (int i = 0; i < arr3.length; i++) { //i에 0을 넣었고, i가 arr3의 길이보다 커지면
+            //0의 +1이 끝남
+            //arr3의 용량을 내가 10이라고 넣어놓았고?
+            // 
             arr3[i] = i + 1;
         }
 
