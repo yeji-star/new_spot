@@ -1,26 +1,47 @@
 package org.example;
-/*  */
 
-import java.util.Scanner;
+/* 1. arr1 변수에 [true, false, true] 연결
+ * 2. arr2 변수에 [3.14, 7.77, 11.11] 연결
+ * 3. arr3 변수에 [1~10] 연결
+ * - 객체 안에 데이터 넣기
+ * - 해당 객체가 가지고 있는 데이터 전부 출력
+ * - 3번은 반복문 사용
+ * - 자바 기본타입
+ * - 힌트는 Main2
+ * - 구글링, AI X  */
 
-import static java.lang.Integer.parseInt;
+
+import java.util.Arrays;
 
 class Main3 {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        // 1.
+        boolean arr1[] = new boolean[]{true, false, true};
 
-        int i = sc.nextInt();
+        System.out.println(arr1.length);
+        System.out.println(Arrays.toString(arr1));
+        //엥근데이거배웟든가;
 
-        if (i < 0) {
-            System.out.println("minus");
-        } else {
-            System.out.println("plus");
-        } if ( i % 2 == 0) {
-            System.out.println("even");
-        } else {
-            System.out.println("odd");
+        // 2.
+        double arr2[] = new double[]{3.14, 7.77, 11.11};
+
+        System.out.println(Arrays.toString(arr2));
+
+        // 3. arr3 변수에 [1~10] 연결
+        // 반복문 사용
+
+        int arr3[] = new int[10];
+
+        for (int i = 0; i < arr3.length; i++) {
+            arr3[i] = i + 1;
         }
+
+        System.out.println(Arrays.toString(arr3));
+
+        //망했다 왜 된건지 이해가 안된다;
+        //Arrays.toString은 분명 객체를 문자형으로 출력시키는 거겠지??
+
 
 
 
