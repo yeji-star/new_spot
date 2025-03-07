@@ -1,13 +1,21 @@
 package org.example;
 /*  */
 
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
 
-        System.out.print("\"https:\\\\star.com\\\"");
-        // " (큰따옴표)를 쓰려면 앞에 \를 붙여야한다
-        //마찬가지로 \를 쓰려고 해도 \를 앞에 붙여야 한다
-        // \" -> " , \\ -> \
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        if (a < b) {
+            System.out.println("small");
+        } else {
+            System.out.println("big");
+        }
+
 
     }
 }
