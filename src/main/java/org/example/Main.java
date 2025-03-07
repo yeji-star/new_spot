@@ -7,13 +7,12 @@ class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        double b = sc.nextDouble();
 
-        if (a < b) {
-            System.out.println("small");
+        if ( b>=50 && b<=60) {
+            System.out.println("win");
         } else {
-            System.out.println("big");
+            System.out.println("lose");
         }
 
 
