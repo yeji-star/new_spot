@@ -20,7 +20,7 @@ class Main {
     }
 }
 
-class 사람 { // 설계도 (필드)
+class 사람 { // 내부에서는 설계도 (필드), 객체화 됏을때는 인스턴스
     String name;
     int age;
     boolean inMarried;
