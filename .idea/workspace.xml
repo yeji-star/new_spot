@@ -48,6 +48,7 @@
     "Application.Main (2).executor": "Run",
     "Application.Main (3).executor": "Run",
     "Application.Main (4).executor": "Run",
+    "Application.Main (5).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.Main3.executor": "Run",
@@ -63,7 +64,7 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="untitled.main" />
@@ -90,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="untitled.main" />
       <extension name="coverage">
@@ -103,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="untitled.main" />
       <extension name="coverage">
@@ -132,17 +133,17 @@
     <list>
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
