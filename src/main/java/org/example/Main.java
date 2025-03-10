@@ -5,35 +5,23 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+
+        MyObject obj = new MyObject(); // MyObject 모양의 객체가 연결 될 떄
+        obj.b = "안녕";
+        System.out.println(obj.b);
+
+        new MyObject().a = 10;
+        System.out.println(new MyObject().a);
         
-
-        int[] aa = new int[3]; //-> 다양한 타입 x
-        aa[0] = 11;
-        aa[1] = 22;
-        aa[2] = 33;
-        //철수 0[0]=12; -> 데이터의 의미????
-
-        IntArr intArr = new IntArr();
-        intArr.eual = 11;
-        intArr.age = 23;
-
-        //사용자 정의 객체를 만들고 싶어 -> 위의 이유 때문에
-        철수 a = new 철수();
-        a.이름 = "김철수";
-        a.나이 = 23;
-        a.키 = 95.3;
-
+        //new가 3개라 객체는 일단 3개
     }
 }
 
-class IntArr {
-    int eual;
-    int age;
+class MyObject {
+    int a;
+    String b;
+    double c;
 }
 
-class 철수 {
-    String 이름;
-    int 나이;
-    double 키;
-}
+
+
