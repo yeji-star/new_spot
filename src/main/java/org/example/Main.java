@@ -3,24 +3,22 @@ package org.example;
 import java.util.Scanner;
 
 class Main {
-    public static void main(String[] args) {
-
-
-        MyObject obj = new MyObject(); // MyObject 모양의 객체가 연결 될 떄
-        obj.b = "안녕";
-        System.out.println(obj.b);
-
-        new MyObject().a = 10;
-        System.out.println(new MyObject().a);
+    public static void main(String[] args) { //메인 메소드 (함수)
         
-        //new가 3개라 객체는 일단 3개
+        사람 a = new 사람();
+        System.out.println(a.age);
+        a.hello();
     }
 }
 
-class MyObject {
-    int a;
-    String b;
-    double c;
+class 사람 { // 필드
+    int age = 22;
+    String name ="김철수";
+    boolean c;
+
+    void hello() {//여기 안에 있는 걸 불러서 활용할 수 있다.
+        System.out.println("안녕하세요");
+    }
 }
 
 
