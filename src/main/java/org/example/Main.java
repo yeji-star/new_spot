@@ -26,7 +26,6 @@ class 사람 { // 내부에서는 설계도 (필드), 객체화 됏을때는 인
     boolean inMarried;
 
     void introduce() {
-
         System.out.println("==자기소개==");
         System.out.printf("이름 : %s\n", this.name); //제일 가까운 놈 찾아감
         System.out.printf("나이 : %d\n", this.age);
