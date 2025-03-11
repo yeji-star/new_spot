@@ -9,7 +9,7 @@ class Main2 {
         // 출력 : 결과1 : 5
 
         int 결과2 = Math.nToMSum(5, 10);
-        System.out.println("결과2 : " + 결과2);
+        System.out.println("결과2 : " + 결과2); 
         // 출력 : 결과2 : 45
     }
 }
@@ -19,11 +19,14 @@ class Math {
     static int j;
 
     static int nToMSum(int a, int b) {
-        for (i = 5; i <= b; i++) {
+        j = 0;
+
+        for (i = a; i <= b; i++) {
             j += i;
 
             System.out.println(j);
         }
+
 
 
         return j;
