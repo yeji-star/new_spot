@@ -4,17 +4,17 @@ package org.example;
 
 class Main2 {
     public static void main(String[] args) {
-        int 결과1 = Math.nToMSum(2, 3);
+        int 결과1 = Math3.nToMSum(2, 3);
         System.out.println("결과1 : " + 결과1);
         // 출력 : 결과1 : 5
 
-        int 결과2 = Math.nToMSum(5, 10);
-        System.out.println("결과2 : " + 결과2); 
+        int 결과2 = Math3.nToMSum(5, 10);
+        System.out.println("결과2 : " + 결과2);
         // 출력 : 결과2 : 45
     }
 }
 
-class Math {
+class Math3 {
     static int i;
     static int j;
 

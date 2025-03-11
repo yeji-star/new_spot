@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exam2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +84,9 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main2 (3)">
-    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main2" />
+  <component name="RunManager" selected="Application.exam2">
+    <configuration name="exam2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exam2" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main2" />
+    <configuration name="exam2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exam2" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main2" />
+    <configuration name="exam2 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exam2" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main2" />
+    <configuration name="exam2 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exam2" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main2" />
+    <configuration name="exam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exam2" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -149,19 +151,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main2 (1)" />
-      <item itemvalue="Application.Main2 (2)" />
-      <item itemvalue="Application.Main2 (3)" />
-      <item itemvalue="Application.Main2 (5)" />
+      <item itemvalue="Application.exam2" />
+      <item itemvalue="Application.exam2 (2)" />
+      <item itemvalue="Application.exam2 (3)" />
+      <item itemvalue="Application.exam2 (4)" />
+      <item itemvalue="Application.exam2 (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2 (3)" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main2 (2)" />
-        <item itemvalue="Application.Main2 (1)" />
-        <item itemvalue="Application.Main2 (5)" />
+        <item itemvalue="Application.exam2" />
+        <item itemvalue="Application.exam2 (5)" />
+        <item itemvalue="Application.exam2 (4)" />
+        <item itemvalue="Application.exam2 (3)" />
+        <item itemvalue="Application.exam2 (2)" />
       </list>
     </recent_temporary>
   </component>
