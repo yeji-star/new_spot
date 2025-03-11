@@ -1,35 +1,1 @@
-package org.example;
-
-// 문제 : 객체를 사용하지 않고 2번째 플레이어를 만들어주세요.
-
-class exam2 {
-    public static void main(String[] args) {
-        플레이어 a플레이어1 = new 플레이어();
-        a플레이어1.나이 = 20;
-        a플레이어1.이름 = "홍길동";
-        a플레이어1.직업 = "의적";
-
-        int a플레이어2_나이 = 22;
-        String a플레이어2_이름 = "김철수";
-        String a플레이어2_직업 = "의사";
-
-        System.out.println("이름 : " + a플레이어2_이름);
-        System.out.println("나이 : " + a플레이어2_나이);
-        System.out.println("직업 : " + a플레이어2_직업);
-
-    }
-}
-class 플레이어 {
-    int 나이;
-    String 이름;
-    String 직업;
-
-    void intro() {
-        System.out.printf("이름 : %s\n");
-        System.out.printf("나이 : %d\n");
-        System.out.printf("직업 : %s");
-    }
-
-}
-
-
+package org.example;public class exam2 {    public static void main(String[] args) {        // 계산기.합();        계산기.합(10, 20);        계산기.합(30, 40);    }}class 계산기 {    static void 합(int a, int b) { //함수 내부와 외부를 연결해주는 창구        System.out.println(a + b);    }}

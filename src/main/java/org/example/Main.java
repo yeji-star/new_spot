@@ -28,7 +28,7 @@ class car {
         System.out.println("으로 달립니다.");
     }
     
-    void 서다() {
+    static void 서다() {
         System.out.println("섭니다.");
     }
 
