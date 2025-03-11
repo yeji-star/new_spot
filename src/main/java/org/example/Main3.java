@@ -1,41 +1,39 @@
 package org.example;
 
+import java.awt.*;
+import java.util.Arrays;
+
 class Main3 {
-
-    void quest() {
-        System.out.println("?");
-    }
-
-    static void why() {
-        System.out.println("why?");
-    }
     public static void main(String[] args) {
-        main();
+        String msg = greet("Jin");
+        System.out.println(msg);
+        //greet에 잇는 걸 이름 Jin을 넣어 출력
 
-        Main3 a = new Main3();
-        a.quest();
+        Point point = createPoint(5, 10);
+        System.out.println("Point create at (" + point.x + ", " + point.y + ")");
+        //x와 y에 각각 5와 10을 입력
+        //그렇게 해서 5, 10
 
-
-        why();
-
-        hi b = new hi();
-        b.hello();
-
-        new hi().hello(); // 급하게 부를 때 사용가능 
-
+        int[] evens = firstNEvenNumbers(5);
+        System.out.println("first 5 even numbers : " + Arrays.toString(evens));
+        //i가 n보다 작을 시 i는 1씩 커지고 num에는 2를 더한다.
+        // 그래서
     }
 
-    static void main() { //메인 클래스 안에 있기에 리모컨이 없어도 실행가능
-        System.out.println("hi");
-
-
+    public static String greet(String name) {
+        return "Hello, " + name + "!";
     }
 
+    public static Point createPoint(int x, int y) {
+        return new Point(x, y);
+    }
+
+    public static int[] firstNEvenNumbers(int n) {
+        int[] evenNumbers = new int[n];
+
+        for (int i = 0, num = 2; i < n; i++, num += 2) {
+            evenNumbers[i] = num;
+        }
+        return evenNumbers;
+    }
 }
-
-class hi { // 메인 클래스에 없기에 리모콘이 필요
-    void hello() { // 다른 클래스에 있는 다른 메소드
-        System.out.println("haha");
-    }
-}
-

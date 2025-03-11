@@ -1,37 +1,27 @@
 package org.example;
+// 문제 : 아래와 같이 출력 되도록 해주세요.
 
-// 문제 : 각각의 자동차가 서로 다른 최고속력으로 달리게 해주세요.
-// 문제 : 번호가 다른 각각의 자동차가 서로 다른 최고속력으로 달리게 해주세요.
 class exam {
     public static void main(String[] args) {
+        계산기.더한_결과를_화면에_출력(10, 20);
 
-        // 구현시작
+        계산기.더한_결과를_화면에_출력(30, 40);
 
-        자동차 a자동차1 = new 자동차();
-        a자동차1.name = "1번";
-        a자동차1.speed = 230;
-
-        자동차 a자동차2 = new 자동차();
-        a자동차2.name = "2번";
-        a자동차2.speed = 210;
-
-        // 구현끝
-
-        a자동차1.달리다();
-        // 출력 => 자동차가 최고속력 230km로 달립니다.
-
-        a자동차2.달리다();
-        // 출력 => 자동차가 최고속력 210km로 달립니다.
+        계산기.뺀_결과를_화면에_출력(30, 20);
     }
 }
 
-class 자동차 {
-    int speed;
-    String name;
-
-    void 달리다() {
-        System.out.printf("%s 자동차가 최고속력 %dkm로 달립니다.\n",this.name, this.speed);
+class 계산기 {
+    static void 더한_결과를_화면에_출력(int a, int b) {
+        System.out.println(a + b);
     }
-    // 구현
+
+    static void 뺀_결과를_화면에_출력(int a, int b) {
+        System.out.println(a - b);
+    }
 }
+
+
+
+
 

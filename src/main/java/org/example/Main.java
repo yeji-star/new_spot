@@ -1,38 +1,53 @@
 package org.example;
 
-import java.util.Scanner;
-
+//문제 - 함수를 실행하면 값을 돌려주도록 만들어주세요.
 class Main {
-    public static void main(String[] args) { //메인 메소드 (함수)
+    public static void main(String[] args) {
+        int 결과;
 
-        car a = new car();
-        a.달리다();
-        a.서다();
+        결과 = 계산기1.합(10, 20);
+        System.out.println("결과 : " + 결과);
+        // 출력 => 결과 : 30
 
-        new car().달리다();
-        new car().서다();
+        결과 = 계산기1.합(30, 20);
+        System.out.println("결과 : " + 결과);
+        // 출력 => 결과 : 50
 
-        car.달리다(); // 객체를 만들어내지 않아서 실행불가
-        //car 안의 메소드에 static을 붙이면 해결되네?
-        //static을 붙이면 객체화 없이 설계도 대로 출력하겠다
-        car.서다();
-        //static을 붙이지 않아서 불가능
+        결과 = 계산기1.합(30, 70);
+        System.out.println("결과 : " + 결과);
+        // 출력 => 결과 : 100
 
+        결과 = 계산기1.차(30, 70);
+        System.out.println("결과 : " + 결과);
+        // 출력 => 결과 : -40
 
+        결과 = 계산기1.곱(3, 7);
+        System.out.println("결과 : " + 결과);
+        // 출력 => 결과 : 21
     }
 }
 
-class car {
-    //static : 객체화 하지 않고 쓰겠다, 설계도 차원에서 기능 뽑아서 쓰고싶어
-    static void 달리다() {
-        System.out.println("으로 달립니다.");
+class 계산기1 {
+
+    static int 합(int a, int b) {
+
+        return a + b;
+
     }
-    
-    static void 서다() {
-        System.out.println("섭니다.");
+
+    static int 차(int a, int b) {
+
+        return a - b;
+    }
+
+    static int 곱(int a, int b) {
+
+
+        return a * b;
     }
 
 }
+
 
 
 
