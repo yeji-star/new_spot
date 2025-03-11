@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="910fb1fa-cc20-4c5b-8622-2e2471a53e67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exam2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +81,8 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.exam2">
-    <configuration name="exam2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.exam2 (1)">
+    <configuration name="exam2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.exam2" />
       <module name="untitled.main" />
       <extension name="coverage">
@@ -152,18 +149,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.exam2" />
-      <item itemvalue="Application.exam2 (2)" />
+      <item itemvalue="Application.exam2 (1)" />
       <item itemvalue="Application.exam2 (3)" />
       <item itemvalue="Application.exam2 (4)" />
       <item itemvalue="Application.exam2 (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.exam2 (1)" />
         <item itemvalue="Application.exam2" />
         <item itemvalue="Application.exam2 (5)" />
         <item itemvalue="Application.exam2 (4)" />
         <item itemvalue="Application.exam2 (3)" />
-        <item itemvalue="Application.exam2 (2)" />
       </list>
     </recent_temporary>
   </component>
