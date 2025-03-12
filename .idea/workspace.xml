@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910fb1fa-cc20-4c5b-8622-2e2471a53e67" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Wea3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/wea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/wea2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/duck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,9 @@
     "Application.Main2.executor": "Run",
     "Application.Main3 (1).executor": "Run",
     "Application.Main3.executor": "Run",
+    "Application.Wea3 (1).executor": "Run",
+    "Application.Wea3 (2).executor": "Run",
+    "Application.Wea3.executor": "Run",
     "Application.duck (1).executor": "Run",
     "Application.duck (2).executor": "Run",
     "Application.duck (3).executor": "Run",
@@ -76,6 +84,10 @@
     "Application.exam2 (4).executor": "Run",
     "Application.exam2 (5).executor": "Run",
     "Application.exam2.executor": "Run",
+    "Application.wea.executor": "Run",
+    "Application.wea2 (1).executor": "Run",
+    "Application.wea2 (2).executor": "Run",
+    "Application.wea2.executor": "Run",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -87,7 +99,7 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.wea2">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="untitled.main" />
@@ -101,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="Wea3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Wea3" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="duck (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.duck" />
+    <configuration name="Wea3 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Wea3" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="duck (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.duck" />
+    <configuration name="Wea3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Wea3" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -140,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="duck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.duck" />
+    <configuration name="wea2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.wea2" />
       <module name="untitled.main" />
       <extension name="coverage">
         <pattern>
@@ -154,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.duck" />
-      <item itemvalue="Application.duck (2)" />
-      <item itemvalue="Application.duck (3)" />
+      <item itemvalue="Application.Wea3" />
+      <item itemvalue="Application.Wea3 (1)" />
+      <item itemvalue="Application.Wea3 (2)" />
+      <item itemvalue="Application.wea2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.wea2" />
+        <item itemvalue="Application.Wea3 (2)" />
+        <item itemvalue="Application.Wea3 (1)" />
+        <item itemvalue="Application.Wea3" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.duck" />
-        <item itemvalue="Application.duck (3)" />
-        <item itemvalue="Application.duck (2)" />
       </list>
     </recent_temporary>
   </component>
