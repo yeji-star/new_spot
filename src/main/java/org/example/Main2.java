@@ -1,34 +1,36 @@
 package org.example;
 
-// 문제 : 아래와 같이 출력 되도록 해주세요.
-
 class Main2 {
     public static void main(String[] args) {
-        int 결과1 = Math3.nToMSum(2, 3);
-        System.out.println("결과1 : " + 결과1);
-        // 출력 : 결과1 : 5
-
-        int 결과2 = Math3.nToMSum(5, 10);
-        System.out.println("결과2 : " + 결과2);
-        // 출력 : 결과2 : 45
+        boolean result = Math5.isPrimeNumber(1);
+        System.out.println("1은(는) 소수인가? : " + result);
+        result = Math5.isPrimeNumber(2);
+        System.out.println("2은(는) 소수인가? : " + result);
+        result = Math5.isPrimeNumber(3);
+        System.out.println("3은(는) 소수인가? : " + result);
+        result = Math5.isPrimeNumber(4);
+        System.out.println("4은(는) 소수인가? : " + result);
+        /*int rs = Math.one_to_n_prime_numbers_count(10);
+        System.out.println("rs : " + rs);
+        // rs : 4
+        rs = Math.one_to_n_prime_numbers_count(13);
+         System.out.println("rs : " + rs);
+        // rs :  6 */
     }
 }
 
-class Math3 {
-    static int i;
-    static int j;
-
-    static int nToMSum(int a, int b) {
-        j = 0;
-
-        for (i = a; i <= b; i++) {
-            j += i;
-
-            System.out.println(j);
+class Math5 {
+    static boolean isPrimeNumber(int a) {
+        if (a == 1) {
+            return false;
         }
 
+        for (int i = 2; i < a; i++) {
+            if (a % i == 0) {
+                return false;
+            }
+        }
 
-
-        return j;
+        return true;
     }
 }
