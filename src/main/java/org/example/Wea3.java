@@ -27,8 +27,12 @@ class Wea3 {
 }
 
 class 전사1 {
-    String 이름;
-    String 무기;
+    String 이름2;
+    String 무기02;
+
+
+    /*
+    //정답을 봐버린 거
 
     void 공격1(String 이름, String 무기) {
         this.이름 = 이름;
@@ -38,18 +42,22 @@ class 전사1 {
     }
     void 재공격() {
         System.out.println(이름 + "(가) " + 무기 + "(으)로 공격합니다.");
-    }
+    } */
 
+    // 내가 하고 + 강사님 설명 들은 것.........
 
-    /*void 공격1(String 이름, String 무기) {
+    void 공격1(String 이름, String 무기) {
         System.out.println(이름 + "이(가) " + 무기 + "(으)로 공격합니다.");
+
+        이름2 = 이름;
+        무기02 = 무기;
 
     }
 
     void 재공격() {
 
-        System.out.println(이름 + "이(가) " + 무기 + "(으)로 공격합니다.");
-    }*/
+        System.out.println(this.이름2 + "이(가) " + this.무기02 + "(으)로 공격합니다.");
+    }
 
 
 }
