@@ -11,7 +11,6 @@ class Main {
         System.out.printf("나이 : %d\n", 사람1.나이);
 
         사람_1 사람2 = new 사람_1();
-        사람2.이름 = "최영희";
         System.out.println("=사람2 정보=");
         System.out.printf("이름 : %s\n", 사람2.이름);
         System.out.printf("나이 : %d\n", 사람2.나이);
@@ -34,7 +33,8 @@ class 사람_1 {
 
     사람_1(String 이름) {
         System.out.println("매개변수 1");
-        this.이름 = 이름; //new만 있으면 실행이 알아서 됨
+        this.이름 = 이름;
+        this.나이 = 26;//new만 있으면 실행이 알아서 됨
         //넘어온 값
     }
 }
