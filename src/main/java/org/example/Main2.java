@@ -1,29 +1,34 @@
 package org.example;
 
-// 문제 : 자동차 리모콘이 페라리 객체를 가리키게 한 후 해당 리모콘이 가리키고 있는 객체를 다시 페라리 리모콘으로 가리키게(참조하게) 하는 코드를 작성해주세요.
-
+// 문제 : 아래가 실행되도록 해주세요.
+//전사가 가지고 있는 변수 a무기가 칼과 활에 모두 호환되게 해주세요.
 class Main2 {
     public static void main(String[] args) {
-        // 수정가능지역 시작
-        자동차 a자동차 = new 페라리();
-        페라리 a페라리 = (페라리) a자동차;
+        전사2 a전사 = new 전사2();
 
-        a페라리.달리다();
-
-        // 수정가능지역 끝
+        a전사.나이 = 20;
+        a전사.a무기 = new 활1();
+        a전사.a무기 = new 칼();
     }
 }
 
-class 자동차 {
-    void 달리다() {
-        System.out.println("달립니다.");
-    }
+class 전사2 {
+    int 나이;
+    무기11 a무기;
 
-    void 서다() {
-    }
 }
 
-class 페라리 extends 자동차 {
-    void 뚜껑이_열리다() {
-    }
+class 무기11 {
+
 }
+
+class 칼 extends 무기11{
+
+}
+
+class 활1 extends 무기11{
+
+}
+
+//정답을 봐버림
+
