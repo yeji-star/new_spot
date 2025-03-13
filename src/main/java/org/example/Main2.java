@@ -1,36 +1,29 @@
 package org.example;
 
+// 문제 : 자동차 리모콘이 페라리 객체를 가리키게 한 후 해당 리모콘이 가리키고 있는 객체를 다시 페라리 리모콘으로 가리키게(참조하게) 하는 코드를 작성해주세요.
+
 class Main2 {
     public static void main(String[] args) {
-        boolean result = Math5.isPrimeNumber(1);
-        System.out.println("1은(는) 소수인가? : " + result);
-        result = Math5.isPrimeNumber(2);
-        System.out.println("2은(는) 소수인가? : " + result);
-        result = Math5.isPrimeNumber(3);
-        System.out.println("3은(는) 소수인가? : " + result);
-        result = Math5.isPrimeNumber(4);
-        System.out.println("4은(는) 소수인가? : " + result);
-        /*int rs = Math.one_to_n_prime_numbers_count(10);
-        System.out.println("rs : " + rs);
-        // rs : 4
-        rs = Math.one_to_n_prime_numbers_count(13);
-         System.out.println("rs : " + rs);
-        // rs :  6 */
+        // 수정가능지역 시작
+        자동차 a자동차 = new 페라리();
+        페라리 a페라리 = (페라리) a자동차;
+
+        a페라리.달리다();
+
+        // 수정가능지역 끝
     }
 }
 
-class Math5 {
-    static boolean isPrimeNumber(int a) {
-        if (a == 1) {
-            return false;
-        }
+class 자동차 {
+    void 달리다() {
+        System.out.println("달립니다.");
+    }
 
-        for (int i = 2; i < a; i++) {
-            if (a % i == 0) {
-                return false;
-            }
-        }
+    void 서다() {
+    }
+}
 
-        return true;
+class 페라리 extends 자동차 {
+    void 뚜껑이_열리다() {
     }
 }
