@@ -53,7 +53,7 @@ class 로봇 {
     }
 
     static void get사람6(int 학번, boolean 출결) {
-        return;
+        return; //return이 없어도 무방
     }
 
 }
