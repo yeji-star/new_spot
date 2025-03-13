@@ -25,6 +25,10 @@ class wea {
         a전사.a무기 = new 칼1();
         a전사.공격();
         // 출력 : 카니가 칼로 공격합니다.
+
+        a전사.a무기 = new 칼1();
+        a전사.이름 = "철수";
+        a전사.공격();
     }
 }
 
@@ -35,31 +39,32 @@ class 전사3 {
 
 
     void 자기소개() {
-        System.out.println("안녕하세요. 저는 " + this.나이 + "살 " + this.이름 + " 입니다.");
+        System.out.println("안녕하세요. 저는 " + this.나이 + "살 " + this.이름 + "입니다.");
     }
 
     void 공격() {
-        a무기.작동();
+        a무기.작동(this.이름);
+        //클래스에 있는 이름 변수 값을 쓰겠다는 뜻.
 
     }
 
 }
 
 class 무기 {
-    void 작동() {
+    void 작동(String 이름2) {
 
     }
 }
 
 class 활2 extends 무기 {
-    void 작동() {
-        System.out.println("카니가 칼로 공격합니다.");
+    void 작동(String 이름2) {
+        System.out.println(이름2 + "가 칼로 공격합니다.");
     }
 }
 
 class 칼1 extends 무기 {
-    void 작동() {
-        System.out.println("카니가 활로 공격합니다.");
+    void 작동(String 이름2) {
+        System.out.println(이름2 + "가 활로 공격합니다.");
     }
 }
 
