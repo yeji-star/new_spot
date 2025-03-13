@@ -4,10 +4,33 @@ package org.example;
 
 class Main {
     public static void main(String[] args) {
-        int i = 10;
-        double d = i; // 여기선 자동형변환 허용
-        i = (int) d; // 여기선 자동형변환 불가능
+        사람_1 사람1 = new 사람_1(); //생성자가 실행이 된 시점
+        사람1.이름 = "김철수";
+        // 사람1.나이 = 23;
+        // 사람1.나이를_22로_설정();
+        System.out.println("=사람1 정보=");
+        System.out.printf("이름 : %s\n", 사람1.이름);
+        System.out.printf("나이 : %d\n", 사람1.나이);
 
-        System.out.println(i);
+        사람_1 사람2 = new 사람_1();
+        사람2.이름 = "최영희";
+        // 사람2.나이 = 25;
+        // 사람2.나이를_22로_설정();
+        System.out.println("=사람2 정보=");
+        System.out.printf("이름 : %s\n", 사람2.이름);
+        System.out.printf("나이 : %d\n", 사람2.나이);
+    }
+}
+
+class 사람_1 {
+    String 이름;
+    int 나이;
+
+   // void 나이를_22로_설정() {
+  //      this.나이 = 22;
+   // }
+
+    사람_1() {
+        this.나이 = 26; //new만 있으면 실행이 알아서 됨
     }
 }

@@ -35,7 +35,7 @@ class wea {
 class 전사3 {
     String 이름;
     int 나이;
-    무기 a무기;
+    무_기 a무기;
 
 
     void 자기소개() {
@@ -50,19 +50,19 @@ class 전사3 {
 
 }
 
-class 무기 {
+class 무_기 {
     void 작동(String 이름2) {
 
     }
 }
 
-class 활2 extends 무기 {
+class 활2 extends 무_기 {
     void 작동(String 이름2) {
         System.out.println(이름2 + "가 칼로 공격합니다.");
     }
 }
 
-class 칼1 extends 무기 {
+class 칼1 extends 무_기 {
     void 작동(String 이름2) {
         System.out.println(이름2 + "가 활로 공격합니다.");
     }

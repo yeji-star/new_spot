@@ -8,7 +8,7 @@ class Main2 {
 
         a전사.나이 = 20;
         a전사.a무기 = new 활1();
-        a전사.a무기 = new 칼();
+        a전사.a무기 = new 칼6();
     }
 }
 
@@ -22,7 +22,7 @@ class 무기11 {
 
 }
 
-class 칼 extends 무기11{
+class 칼6 extends 무기11{
 
 }
 
