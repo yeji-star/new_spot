@@ -3,8 +3,20 @@ package org.example;
 class Main {
     public static void main(String[] args) {
 
+        int[] arr = new int[10];
+
+        Article[] articles = new Article[10];
+
+        Article article1 = new Article();
+        articles[0] = article1;
 
         Article article2 = new Article();
+        articles[1] = article2;
+
+        System.out.println(articles[0].id);
+        System.out.println(articles[1].id);
+
+        System.out.println(article1.id);
         System.out.println(article2.id);
 
     }
