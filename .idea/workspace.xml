@@ -7,6 +7,14 @@
     <list default="true" id="910fb1fa-cc20-4c5b-8622-2e2471a53e67" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Wea3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exam2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/wea2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,69 +50,69 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main (4).executor": "Run",
-    "Application.Main (5).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2 (1).executor": "Run",
-    "Application.Main2 (2).executor": "Run",
-    "Application.Main2 (3).executor": "Run",
-    "Application.Main2 (4).executor": "Run",
-    "Application.Main2 (5).executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.Main3 (1).executor": "Run",
-    "Application.Main3 (2).executor": "Run",
-    "Application.Main3.executor": "Run",
-    "Application.Wea3 (1).executor": "Run",
-    "Application.Wea3 (2).executor": "Run",
-    "Application.Wea3 (3).executor": "Run",
-    "Application.Wea3.executor": "Run",
-    "Application.duck (1).executor": "Run",
-    "Application.duck (2).executor": "Run",
-    "Application.duck (3).executor": "Run",
-    "Application.duck (4).executor": "Run",
-    "Application.duck (5).executor": "Run",
-    "Application.duck.executor": "Run",
-    "Application.exam (1).executor": "Run",
-    "Application.exam (2).executor": "Run",
-    "Application.exam (3).executor": "Run",
-    "Application.exam (4).executor": "Run",
-    "Application.exam (5).executor": "Run",
-    "Application.exam.executor": "Run",
-    "Application.exam2 (1).executor": "Run",
-    "Application.exam2 (2).executor": "Run",
-    "Application.exam2 (3).executor": "Run",
-    "Application.exam2 (4).executor": "Run",
-    "Application.exam2 (5).executor": "Run",
-    "Application.exam2.executor": "Run",
-    "Application.org.example.Main2.executor": "Run",
-    "Application.org.example.wea2 (1).executor": "Debug",
-    "Application.org.example.wea2.executor": "Run",
-    "Application.wea (1).executor": "Run",
-    "Application.wea (2).executor": "Run",
-    "Application.wea (3).executor": "Run",
-    "Application.wea (4).executor": "Run",
-    "Application.wea (5).executor": "Run",
-    "Application.wea.executor": "Run",
-    "Application.wea2 (1).executor": "Run",
-    "Application.wea2 (2).executor": "Run",
-    "Application.wea2.executor": "Run",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/admin/IdeaProjects/untitled/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wea3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wea3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wea3 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Wea3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.duck (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.duck (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.duck (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.duck (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.duck (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.duck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam.executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam2 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.exam2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.wea2 (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.org.example.wea2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea.executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.wea2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/admin/IdeaProjects/untitled/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main (5)">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="untitled.main" />
@@ -172,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
