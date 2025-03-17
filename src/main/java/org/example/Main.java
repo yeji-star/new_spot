@@ -1,7 +1,5 @@
 package org.example;
 
-
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Main {
@@ -9,24 +7,14 @@ class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int a = 0;
+        String[] input = sc.nextLine().split(" ");
 
-        while (true) {
-            try {
-                System.out.printf("숫자 : ");
-                a = sc.nextInt();
-                sc.nextLine(); // 버퍼를 지운다
-                break;
-            } catch (InputMismatchException e){
-                System.out.println("숫자 틀림");
-                sc.nextLine();
-            }
-        }
+        long a = Long.parseLong(input[0]);
+        long b = Long.parseLong(input[1]);
+        long c = Long.parseLong(input[2]);
 
-
-        System.out.println("입력된 숫자 : " + a);
-
-        sc.close();
+        System.out.println(a + b + c);
 
     }
 }
+
