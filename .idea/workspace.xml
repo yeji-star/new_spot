@@ -111,7 +111,7 @@
     "애플리케이션.Main.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.peo (4)">
+  <component name="RunManager" selected="Application.peo (5)">
     <configuration name="peo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.peo" />
       <module name="untitled.main" />
@@ -164,7 +164,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="peo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="peo (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.peo" />
       <module name="untitled.main" />
       <extension name="coverage">
@@ -179,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.peo (5)" />
         <item itemvalue="Application.peo (4)" />
         <item itemvalue="Application.peo (3)" />
         <item itemvalue="Application.peo (2)" />
         <item itemvalue="Application.peo (1)" />
-        <item itemvalue="Application.peo" />
       </list>
     </recent_temporary>
   </component>
