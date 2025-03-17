@@ -1,8 +1,9 @@
 package org.example;
+
 // 문제 : 아래가 실행되도록 해주세요.
 // 조건 : 배열을 사용할 수 없습니다.
 
-class Main {
+/* class Main {
     public static void main(String[] args) {
         사람인력관리소1 a사람인력관리소 = new 사람인력관리소1();
 
@@ -28,35 +29,56 @@ class Main {
 }
 
 class 사람인력관리소1 {
+    사람1 a사람1;
+    사람1 a사람2;
+    사람1 a사람3;
 
-     int 번호2;
+    int 숫자추가 = 0;
 
     void add사람(String 이름, int 나이) {
-        사람1 a사람 = new 사람1();
-        a사람.번호 = this.번호2 + 1;
+
+        int 번호 = 숫자추가 + 1;
+
+        사람 a사람 = new 사람();
         a사람.이름 = 이름;
         a사람.나이 = 나이;
+        a사람.번호 = 번호;
+
+        if (번호 == 1) {
+            a사람1 = a사람1;
+        } else if (번호 == 2) {
+            a사람2 = a사람1;
+        } else if (번호 == 3) {
+            a사람3 = a사람1;
+        }
         System.out.println("나이가 " + a사람.나이 + "살인 " + a사람.번호 + "번째 사람(" + a사람.이름 + ")이 추가되었습니다.");
-this.번호2 = 번호2;
+        숫자추가++;
+
+
     }
 
     사람1 get사람(int 번호) {
-        return new 사람1();
+        if (번호 == 1) {
+            return a사람1;
+        } else if (번호 == 2) {
+            return a사람2;
+        } else if (번호 == 3) {
+            return a사람3;
+        }
+        return null;
     }
+
 }
 
-class 사람1 extends 사람인력관리소1 {
-
-    int 번호;
-    int 나이;
+class 사람1 {
     String 이름;
+    int 나이;
+    int 번호;
 
     void 자기소개() {
-
-
         System.out.println("저는 " + 번호 + "번, " + 이름 + ", " + 나이 + "살 입니다.");
-
-
     }
-
 }
+
+
+ */

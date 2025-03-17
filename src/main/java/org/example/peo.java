@@ -1,7 +1,7 @@
 package org.example;
 
 // 문제 : 아래가 실행되도록 해주세요.
-// 조건 : 배열을 사용할 수 없습니다.
+
 
 class peo {
     public static void main(String[] args) {
@@ -29,9 +29,11 @@ class peo {
 }
 
 class 사람인력관리소 {
-    사람 a사람1;
-    사람 a사람2;
-    사람 a사람3;
+    사람[] 사람들 = new 사람[10];
+
+    //    사람 a사람1;
+//    사람 a사람2;
+//    사람 a사람3;
 
     int 숫자추가 = 0;
 
@@ -44,13 +46,9 @@ class 사람인력관리소 {
         a사람.나이 = 나이;
         a사람.번호 = 번호;
 
-        if (번호 == 1) {
-            a사람1 = a사람;
-        } else if (번호 == 2) {
-            a사람2 = a사람;
-        } else if (번호 == 3) {
-            a사람3 = a사람;
-        }
+        사람들[번호 - 1] = a사람;
+
+
         System.out.println("나이가 " + a사람.나이 + "살인 " + a사람.번호 + "번째 사람(" + a사람.이름 + ")이 추가되었습니다.");
         숫자추가++;
 
@@ -58,14 +56,8 @@ class 사람인력관리소 {
     }
 
     사람 get사람(int 번호) {
-        if (번호 == 1) {
-            return a사람1;
-        } else if (번호 == 2) {
-            return a사람2;
-        } else if (번호 == 3) {
-            return a사람3;
-        }
-        return null;
+
+        return 사람들[번호 - 1];
     }
 
 }
